@@ -339,12 +339,6 @@ tictactoe = Game()
 tictactoe.start_game()
 
 
-def display_result(self, result):
-    print("""***********************GAME OVER!***********************""")
-    if result is None:
-        print("'DRAW' Game ended without winner. You are even")
-    else:
-        print(f'Player {result[0]} with mark {result[1]} is the winner')
 
 
 
